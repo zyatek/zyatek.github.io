@@ -1,0 +1,6 @@
+p:nth-child(2){
+  font-size: larger;
+}
+p:last-child{
+  color:#999;
+}
