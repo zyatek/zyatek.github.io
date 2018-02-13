@@ -1,13 +1,76 @@
-td:nth-child(2n+1) {
-  background-color: #f2f2de;
+body{
+  font-size:120%;
+  font-family: arial;
 }
-tr:nth-child(even){
-  background-color: #ddebf7;
+
+input{
+ display: none;
 }
-tr:nth-child(even) td:first-child {
-  background-color: #ddebf7;
+
+input ~ label{
+  padding: 0 10px 0 10px;
+  text-decoration: underline;
 }
-tr:nth-child(odd) td:first-child {
-  background-color: white;
+
+input#green ~ label[for=green]{
+  color: green;
 }
+input#green:checked ~ label[for=green]{
+  color: green;
+  opacity: 0.3;
+}
+
+input#blue ~ label[for=blue]{
+  color: blue;
+
+}
+input#blue:checked ~ label[for=blue]{
+  color: blue;
+  opacity: 0.3;
+}
+input#red ~ label[for=red]{
+  color: red;
+}
+input#red:checked ~ label[for=red]{
+  color: red;
+  opacity: 0.3;
+}
+
+input#red:checked ~ span.red{
+    display: none; 
+}
+
+input#green:checked ~ span.green{
+    display: none; 
+}
+
+input#blue:checked ~ span.blue{
+    display: none; 
+}
+span{
+    font-weight: bold;
+}
+.red{
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+  padding: 0 10px;
+  
+}
+.green{
+  background-color: green;
+  border-radius: 7px;
+  padding: 0 10px;
+  color: white;
+}
+.blue{
+  background-color:blue;
+  color:white;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+
+
+
+
 
