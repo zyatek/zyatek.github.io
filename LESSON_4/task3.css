@@ -1,0 +1,40 @@
+.menu {
+	margin: auto;
+	width: 630;
+	
+}
+.menu li{
+	float: left;
+	margin: 4px;
+	list-style: none;
+	color: #a64dff;
+	padding: 5px;
+	font-family: Arial;
+
+	
+}
+.submenu li{
+	border: 1px solid gray;
+	border-radius:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+li.dot{
+	vertical-align: top;
+	border:transparent;
+	
+}
+
+.menu li:hover{
+	background-color: #a64dff;
+	color: white;
+	border: 1px solid #a64dff;
+	border-radius: 5px;
+}
+.menu:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+

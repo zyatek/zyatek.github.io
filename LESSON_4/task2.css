@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+
+
+.menu {
+  background-color: #a64dff;
+  padding-left: 3em;
+  width: 900px;
+  margin: 1em auto;
+  font-family: Economica;
+}
+.menu li {
+  float:left;
+  padding: 8px;
+  list-style:none;  
+  color: white;
+}
+li.rightfloat{
+  float: right;
+  margin-right: 3em;
+  
+}
+
+.menu li:hover {
+  background-color: #eeeeee;  
+  color: #666666;  
+}
+
+.clearfix:after{
+  content:'';
+  clear:both;
+  display: block;
+  
+}
